@@ -126,6 +126,20 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>NexusRelease Repository</name>
+            <url>http://106.14.141.136:8099/nexus/content/repositories/releases/</url>
+        </repository>
+        <!-- 快照版本 -->
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>nexus distribution snapshot repository</name>
+            <url>http://106.14.141.136:8099/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
