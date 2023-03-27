@@ -6,9 +6,9 @@ public class TestApplication {
 
 
     public static void main(String[] args) {
-        GeneratorConfig config = GeneratorConfig.builder().jdbcUrl("jdbc:mysql://localhost:3306/autoapi")
+        GeneratorConfig config = GeneratorConfig.builder().jdbcUrl("jdbc:mysql://106.14.141.136:3307/dukun")
                 .userName("root")
-                .password("root")
+                .password("123456")
                 .port(8068)
                 .driverClassName("com.mysql.cj.jdbc.Driver")
                 .basePackage("com.github.davidfantasy.mybatisplus.generatorui.example")

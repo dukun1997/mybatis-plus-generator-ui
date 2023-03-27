@@ -9,7 +9,7 @@ public class MapperXmlStrategy {
     /**
      * 是否生成baseResultMap
      */
-    private boolean baseResultMap = false;
+    private boolean baseResultMap = true;
 
     /**
      * 是否在xml中添加二级缓存配置
